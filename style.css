@@ -4,7 +4,9 @@
 body{
     background-image: url('https://peoriaparks.org/wp-content/uploads/2017/12/BookCourt_iStock-690358116-e1515177346323.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    /* background-size: 100% 100%; */
+    background-position: center;
+    background-size: 100% auto;
     font-family: 'Roboto', sans-serif;
     color: #eee;
 }
