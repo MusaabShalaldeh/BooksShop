@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #eee;
+}
+
+header{
+    background-color: rgba(64, 34, 24,0.7);
+    width: 100%;
+    margin-bottom: 5%;
+    padding: 1.5%;
+    text-align: center;
+}
+header h1{
+    font-size: 37px;
+    font-weight: bolder;
+}   
+main{
+    /* width: 100%; */
+    margin: 2%;
+    min-height: 70vh;
+    text-align: center;
+}
+main section{
+    width: 100%;
+}
+
+
+
+#formContainer{
+    background-color: rgba(64, 34, 24,0.7);
+    float:left;
+    width: 42%;
+    border-radius: 10px;
+    padding: 1%;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#formContainer label{
+    width: 40%;
+    float: left;
+    text-align: left;
+}
+select{
+    width: 60%;
+}
+#formContainer input{
+    width: 60%;
+    float: right;
+}
+#submitButton{
+    color: #eee;
+    font-weight: bold;
+    background-color: #C68B59;
+}
+#tableContainer{
+    padding-bottom: 40px;
+    background-color: rgba(64, 34, 24,0.7);
+    float: right;
+    width: 50%;
+    border-radius: 10px;
+}
+table, th, td {
+    border: 2px solid #eee;
+    border-style:double;
+}
+table{
+    width: 80%;
+    margin: 20px auto;
+}
+th{
+    font-weight: bolder;
+    font-size: large;
+}
+p{
+    margin: 15px;
+    font-weight: bolder;
+}
+
+
+
+
+
+footer{
+    clear: both;
+    background-color: rgba(64, 34, 24,0.7);
+    width: 100%;
+    /* margin-bottom: 2%; */
+    padding: 1.5%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
